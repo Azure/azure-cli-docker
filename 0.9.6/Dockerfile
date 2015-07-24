@@ -12,6 +12,8 @@ RUN apt-get update -qq && \
       lsb-release \
       python-all \
       rlwrap \
+      vim \
+      nano \
       jq && \
     rm -rf /var/lib/apt/lists/* && \
     curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.4-1nodesource1~jessie1_amd64.deb > node.deb && \
@@ -21,3 +23,5 @@ RUN apt-get update -qq && \
       azure --completion >> ~/azure.completion.sh && \
       echo 'source ~/azure.completion.sh' >> ~/.bashrc && \
       azure
+
+ENV EDITOR vim

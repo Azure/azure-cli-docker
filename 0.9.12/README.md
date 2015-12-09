@@ -1,4 +1,4 @@
-# Microsoft Azure CLI Docker Image 
+# Microsoft Azure CLI Docker Image
 
 This Docker image has Microsoft Azure CLI installed and prepared. To run it, execute:
 

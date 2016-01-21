@@ -3,8 +3,8 @@ FROM debian:jessie
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 ENV AZURE_CLI_VERSION "0.9.14"
-ENV NODEJS_APT_ROOT "node_5.x"
-ENV NODEJS_VERSION "5.4.1"
+ENV NODEJS_APT_ROOT "node_4.x"
+ENV NODEJS_VERSION "4.2.4"
 
 RUN apt-get update -qq && \
     apt-get install -qqy --no-install-recommends\

@@ -1,0 +1,2 @@
+To run this image, from a docker host run:
+	docker run -i -t microsoft/azure-cli

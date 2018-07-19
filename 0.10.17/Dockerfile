@@ -4,7 +4,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 ENV AZURE_CLI_VERSION "0.10.17"
 ENV NODEJS_APT_ROOT "node_6.x"
-ENV NODEJS_VERSION "6.11.3"
+ENV NODEJS_VERSION "6.11.2"
 
 RUN apt-get update -qq && \
     apt-get install -qqy --no-install-recommends\

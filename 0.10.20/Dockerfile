@@ -17,7 +17,8 @@ RUN apt-get update -qq && \
       rlwrap \
       vim \
       nano \
-      jq
+      jq \
+      zip
 
 #Run as non-root node user
 WORKDIR /home/node/
